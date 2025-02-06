@@ -119,7 +119,7 @@ class TodosController extends Todos {
                             const todo: Todo = todos[find_index_todo];
                             if (todo.user_id != verify_token.user_id) throw new ClientError("Todo is not edit", 400);
                             todo.message = change_todo.message;
-                            todo.iscomplate = change_todo.iscomplate;
+                            todo.iscomplate = change_todo.iscomplate|| false;
                             const save_todo: boolean | void = await writeFile("todos.json", todos);
                             if (!save_todo) throw new ServerError("Todo is not changed");
                             
