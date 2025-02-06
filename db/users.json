@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "first_name": "Og'abek",
+        "last_name": "Norkulov",
+        "email": "ogabek@gmail.com",
+        "password": "ogabek123"
+    },
+    {
+        "id": 2,
+        "first_name": "Og'abek",
+        "last_name": "Og'abek",
+        "email": "ogabek1@gmail.com",
+        "password": "ogabek123"
+    },
+    {
+        "id": 3,
+        "first_name": "Og'abek",
+        "last_name": "Og'abek",
+        "email": "ogabek3@gmail.com",
+        "password": "ogabek123"
+    },
+    {
+        "id": 4,
+        "first_name": "Og'abek",
+        "last_name": "Og'abek",
+        "email": "ogabek4gmail.com",
+        "password": "ogabek123"
+    }
+]
